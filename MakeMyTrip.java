@@ -25,9 +25,9 @@ public class MakeMyTrip {
 		known as locators*/
 		driver.findElement(By.cssSelector("#SW > div.landingContainer > div.makeFlex.hrtlCenter.prependTop5.appendBottom40 > ul > li.makeFlex.hrtlCenter.font10.makeRelative.lhUser")).click();
 		
-		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("alphonsavb@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("alphonsavb@g");
 	//	driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("alphonsa23");
-		driver.findElement(By.cssSelector("#SW > div.landingContainer > div.headerOuter > div.modal.displayBlock.modalLogin.dynHeight.personal > section > form > div.btnContainer.appendBottom25 > button")).click();
+		//driver.findElement(By.cssSelector("#SW > div.landingContainer > div.headerOuter > div.modal.displayBlock.modalLogin.dynHeight.personal > section > form > div.btnContainer.appendBottom25 > button")).click();
 	}
 
 
